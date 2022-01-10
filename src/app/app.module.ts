@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RamuComponent } from './ramu/ramu.component';
+import { SamirComponent } from './samir/samir.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RamuComponent
+    RamuComponent,
+    SamirComponent
   ],
   imports: [
     BrowserModule,
